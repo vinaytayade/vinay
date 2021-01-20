@@ -1,0 +1,285 @@
+ body {
+     font-family: 'Montserrat', sans-serif;
+ }
+ 
+ * {
+     box-sizing: border-box !important;
+ }
+ 
+ .silver_form {
+     left: 65%;
+     top: 25%;
+     font-size: 13px;
+ }
+ 
+ .grl_img {
+     width: 100%;
+     /*height: 90vh;*/
+ }
+ /* .grl {
+    top: 225.5%;
+} */
+ 
+ .girl {
+     width: 400px;
+     border-bottom: 2px solid #B21411;
+     margin-left: 30%;
+ }
+ 
+ .girl2 {
+     width: 400px;
+     border-bottom: 2px solid #B21411;
+     margin-top: 1%;
+ }
+ /* .grl2 {
+    top: 362%;
+} */
+ 
+ .girl3 {
+     width: 450px;
+     border-bottom: 2px solid #B21411;
+     margin-left: 35%;
+ }
+ 
+ .girl4 {
+     width: 450px;
+     border-bottom: 2px solid #B21411;
+     margin-top: 1%;
+ }
+ 
+ .border_last1 {
+     width: 900px;
+     border-bottom: 2px solid #B21411;
+     margin-left: auto;
+ }
+ 
+ .border_last2 {
+     width: 900px;
+     border-bottom: 2px solid #B21411;
+     margin-top: 0.5%;
+ }
+ 
+ .text {
+     line-height: 110%;
+ }
+ 
+ @media screen and (max-width:992px) {
+     /* .grl {
+        top: 100%;
+    } */
+ }
+ 
+ @media screen and (max-width:768px) {
+     .silver_form {
+         left: 0;
+         top: 100%;
+         font-size: 13px;
+     }
+     .logo {
+         width: 50%;
+     }
+     /* .grl {
+        top: 100%;
+    } */
+     .girl {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-left: 20%;
+     }
+     .girl2 {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-top: 1%;
+     }
+     .border_last1 {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-left: auto;
+     }
+     .border_last2 {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-top: 1%;
+     }
+     .text {
+         font-size: 48px !important;
+         line-height: 310%;
+     }
+ }
+ 
+ @media screen and (max-width:560px) {
+     .silver_form {
+         left: 0;
+         top: 100%;
+         font-size: 13px;
+     }
+     .content_1 {
+         margin-top: 80%;
+     }
+     .logo {
+         width: 50%;
+     }
+     /* .grl {
+        top: 181%;
+    } */
+     .grl_img {
+         width: 100%;
+         /* height: 55vh;*/
+     }
+     .girl {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-left: 20%;
+     }
+     .girl2 {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-top: 1%;
+     }
+     /* .grl2 {
+        top: 632%;
+    } */
+     .girl3 {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-left: 20%;
+     }
+     .girl4 {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-top: 1%;
+     }
+     .border_last1 {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-left: auto;
+     }
+     .border_last2 {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-top: 1%;
+     }
+     .text {
+         font-size: 25px !important;
+         line-height: 90%;
+     }
+     .f_text {
+         font-size: 15px !important;
+     }
+     .f_text2 {
+         font-size: 12px !important;
+     }
+     .text_p {
+         font-size: 13px !important;
+     }
+     .p_text {
+         font-size: 16px !important;
+     }
+ }
+ 
+ @media screen and (max-width:480px) {
+     .grl_img {
+         width: 100%;
+         /*height: 40vh;*/
+     }
+     .girl {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-left: 20%;
+     }
+     .girl2 {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-top: 1%;
+     }
+     .girl3 {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-left: 20%;
+     }
+     .girl4 {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-top: 1%;
+     }
+     .border_last1 {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-left: auto;
+     }
+     .border_last2 {
+         width: 300px;
+         border-bottom: 2px solid #B21411;
+         margin-top: 1%;
+     }
+     .text {
+         font-size: 25px !important;
+         line-height: 90%;
+     }
+     .f_text {
+         font-size: 15px !important;
+     }
+     .f_text2 {
+         font-size: 12px !important;
+     }
+     .text_p {
+         font-size: 13px !important;
+     }
+     .p_text {
+         font-size: 16px !important;
+     }
+ }
+ 
+ @media screen and (max-width:360px) {
+     .grl_img {
+         width: 100%;
+         /* height: 40vh;*/
+         margin-top: 50%;
+     }
+     .girl {
+         width: 200px;
+         border-bottom: 2px solid #B21411;
+         margin-left: 20%;
+     }
+     .girl2 {
+         width: 200px;
+         border-bottom: 2px solid #B21411;
+         margin-top: 1%;
+     }
+     .girl3 {
+         width: 200px;
+         border-bottom: 2px solid #B21411;
+         margin-left: 20%;
+     }
+     .girl4 {
+         width: 200px;
+         border-bottom: 2px solid #B21411;
+         margin-top: 1%;
+     }
+     .border_last1 {
+         width: 200px;
+         border-bottom: 2px solid #B21411;
+         margin-left: auto;
+     }
+     .border_last2 {
+         width: 200px;
+         border-bottom: 2px solid #B21411;
+         margin-top: 1%;
+     }
+     .text {
+         font-size: 25px !important;
+         line-height: 90%;
+     }
+     .f_text {
+         font-size: 15px !important;
+     }
+     .f_text2 {
+         font-size: 12px !important;
+     }
+     .text_p {
+         font-size: 13px !important;
+     }
+     .p_text {
+         font-size: 16px !important;
+     }
+ }
