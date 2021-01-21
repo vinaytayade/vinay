@@ -169,7 +169,7 @@
 
             <div class="contact__container bd-grid">
               
-                 <form method="post" action="<?php echo $_SERVER['PHP_SELF']?>"  class="contact__form">
+                 <form method="post" action="prot.php"  class="contact__form">
                             <div class="row">
                                 <div class="col-12 text-left"><span style="font-size:14px;color:#1B365C;">PARENT NAME*</span></div>
                             </div>
@@ -207,24 +207,7 @@
     <script src="assets/js/main.js"></script>
     
     
-     <?php
-    if(isset($_POST['submit']))
-
-    
-    {
-    $pname = $_POST['pname'];
    
-    
-   $to = "vinayk.vk868@gmail.com";
-      
-    $subject = "INVITATION";
-    $txt .= "PARENT NAME:$pname";
-   
-
-    //school:$school
-    mail($to,$subject,$txt);
-    }
-    ?> 
     
     
 </body>
