@@ -167,22 +167,12 @@
         <section class="contact section" id="contact">
             <h2 class="section-title">Contact</h2>
 
-            <div class="contact__container bd-grid">
-              
-                 <form method="post" action="port.php"  class="contact__form">
-                            <div class="row">
-                                <div class="col-12 text-left"><span style="font-size:14px;color:#1B365C;">PARENT NAME*</span></div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <input type="text" class="form-control" name="pname" aria-label="Username" aria-describedby="addon-wrapping" required>
-                                </div>
-                            </div>
-                        <div class="row">
-                                <div class="col-2 mt-2">
-                                    <input class="btn btn-danger text-white rounded-pill"    name="submit" type="submit" value="SUBMIT" style="font-size:14px;">
-                                </div>
-                            </div>
+           <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Send" class="contact__button button">
                 </form>
             </div>
         </section>
