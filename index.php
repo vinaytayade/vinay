@@ -168,11 +168,21 @@
             <h2 class="section-title">Contact</h2>
 
             <div class="contact__container bd-grid">
-                <form action="" class="contact__form">
-                    <input type="text" placeholder="Name" class="contact__input">
-                    <input type="mail" placeholder="Email" class="contact__input">
-                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                    <input type="button" value="Enviar" class="contact__button button">
+              
+                 <form method="post" action="<?php echo $_SERVER['PHP_SELF']?>"  class="contact__form">
+                            <div class="row">
+                                <div class="col-12 text-left"><span style="font-size:14px;color:#1B365C;">PARENT NAME*</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <input type="text" class="form-control" name="pname" aria-label="Username" aria-describedby="addon-wrapping" required>
+                                </div>
+                            </div>
+                        <div class="row">
+                                <div class="col-2 mt-2">
+                                    <input class="btn btn-danger text-white rounded-pill"    name="submit" type="submit" value="SUBMIT" style="font-size:14px;">
+                                </div>
+                            </div>
                 </form>
             </div>
         </section>
@@ -195,6 +205,28 @@
 
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
+    
+    
+     <?php
+    if(isset($_POST['submit']))
+
+    
+    {
+    $pname = $_POST['pname'];
+   
+    
+   $to = "vinayk.vk868@gmail.com";
+      
+    $subject = "INVITATION";
+    $txt .= "PARENT NAME:$pname";
+   
+
+    //school:$school
+    mail($to,$subject,$txt);
+    }
+    ?> 
+    
+    
 </body>
 
 </html>
